@@ -649,6 +649,7 @@ img {
   font: 400 12px / 1.16667 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
   display: block;
   margin-bottom: 4px;
 }
@@ -676,13 +677,24 @@ img {
   left: 16px;
   fill: #2e2f42;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
 }
 
+.comment-textarea {
+  margin-bottom: 16px;
+}
+
 .user-comment {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 360px;
@@ -716,6 +728,9 @@ img {
   align-items: center;
   background-color: transparent;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
 }
 
@@ -726,6 +741,7 @@ img {
 }
 
 .label-checkbox {
+  line-height: 1.17;
   font: 400 12px / 1.16667 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -745,7 +761,7 @@ img {
   color: #fff;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
