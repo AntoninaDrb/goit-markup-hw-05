@@ -513,13 +513,19 @@ img {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em; 
+  padding-left: 16px;
+  color: #ffffff;
 }
 
 .footer-form-input:focus {
  border: #31d0aa;
 
 .footer-form-input::placeholder {
+  color #ffffff;
   font: 400 12px / 2 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   color: #fff;
@@ -531,13 +537,18 @@ img {
 .subscribe-btn {
   font: 500 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.04em;
+  min-width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  color: #fff;
-  border-radius: 4px;
+ color: #ffffff
+  border-radius: 4px; 
   padding: 8px 64px 8px 24px;
   width: 165px;
   height: 40px;
-  background: #4d5ae5;
+  background-color: #4D5AE5;
+  border: none; 
   margin-left: 24px;
 }
 .subscribe-icon {
