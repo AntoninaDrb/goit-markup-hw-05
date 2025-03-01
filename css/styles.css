@@ -521,8 +521,6 @@ img {
   color: #ffffff;
 }
 
-.footer-form-input:focus {
- border: #31d0aa;
 
 .footer-form-input::placeholder {
   color #ffffff;
