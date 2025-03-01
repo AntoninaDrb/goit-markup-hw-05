@@ -472,11 +472,30 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subcribe-container">
+          <p class="social-text">Subscribe</p>
+          <form>
+            <label class="footer-form" for="subscribe"></label>
+            <input
+              class="footer-form-input"
+              id="subscribe"
+              name="subscribe"
+              type="text"
+              placeholder="E-mail"
+            />
+            <button class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#Frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
     <!--#region backdrop-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="close-btn-icon" width="8" height="8">
@@ -533,7 +552,7 @@
           <div>
             <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
-              name=""
+              name="modal-textarea"
               class="user-comment"
               placeholder="Text input"
               id="user-comment"
