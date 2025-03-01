@@ -516,14 +516,12 @@ img {
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.04em; 
+  letter-spacing: 0.04em;
   padding-left: 16px;
-  color: #ffffff;
+  color: #fff;
 }
 
-
 .footer-form-input::placeholder {
-  color #ffffff;
   font: 400 12px / 2 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   color: #fff;
@@ -540,13 +538,13 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
- color: #ffffff
-  border-radius: 4px; 
+  color: #fff;
+  border-radius: 4px;
   padding: 8px 64px 8px 24px;
   width: 165px;
   height: 40px;
-  background-color: #4D5AE5;
-  border: none; 
+  background-color: #4d5ae5;
+  border: none;
   margin-left: 24px;
 }
 .subscribe-icon {
