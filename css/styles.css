@@ -742,14 +742,14 @@ img {
 }
 
 .label-checkbox {
+  font: 400 12px / 1.17 'Roboto', sans-serif;
   line-height: 1.17;
-  font: 400 12px / 1.16667 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
 .label-checkbox a {
-  font: 400 12px / 1.33333 'Roboto', sans-serif;
+  font: 400 12px / 1.33 'Roboto', sans-serif;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
